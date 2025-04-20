@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo | UI/UX Designer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="splash-screen">
+        <canvas id="matrixCanvasSplash"></canvas>
+        <div class="splash-content">
+            <div class="splash-text">SYSTEM INITIALIZING</div>
+            <div class="splash-sub">UI/UX DESIGN PORTFOLIO</div>
+        </div>
+    </div>
+
+    <canvas id="matrixCanvas"></canvas>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">MANAV.<span>DESIGNS</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <!-- <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#testimonials">TESTIMONIALS</a></li> -->
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="marquee-wrapper">
+        <marquee behavior="scroll" direction="left">
+            AVAILABLE FOR FREELANCE WORK • UI/UX DESIGN • FRONTEND DEVELOPMENT • CREATIVE DIRECTION • 3D DESIGN • USER RESEARCH • INTERACTION DESIGN
+        </marquee>
+    </div>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>HELLO, I'M <span>Manav</span></h1>
+                <p>A <span class="typing-text"></span><span class="cursor">|</span></p>
+                <p class="hero-description">I'm a designer at heart who thrives on solving real-world challenges. With a background in design and an endless curiosity for tech and business, I'm always learning, building, and exploring.</p>
+            </div>
+            <div class="hero-img">
+                <img src="main.png" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <div class="blender-divider">
+        <video autoplay loop muted playsinline>
+            <source src="blender-animation-1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="blender-overlay">
+            <h3>3D DESIGN EXPERTISE</h3>
+            <p>Blender animations showcasing my modeling and rendering skills</p>
+        </div>
+    </div>
+
+    <section class="skills-section" id="skills">
+        <h2>SYSTEM PROGRAMS</h2>
+        <div class="skills-container">
+            <div class="skill-block">
+                <h3><i class="fas fa-code"></i> DEVELOPMENT</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-level="Advanced">
+                        <img src="HTML5.png" alt="HTML">
+                        <span class="skill-name">HTML5</span>
+                        <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-item" data-level="Advanced">
+                        <img src="css3.png" alt="CSS">
+                        <span class="skill-name">CSS3</span>
+                        <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-item" data-level="Intermediate">
+                        <img src="js.png" alt="JavaScript">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="skill-item" data-level="Basic">
+                        <img src="react.png" alt="React">
+                        <span class="skill-name">React.js</span>
+                        <span class="skill-level">Basic</span>
+                    </div>
+                    <div class="skill-item" data-level="Basic">
+                        <img src="python.png" alt="Python">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-level">Basic</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-block">
+                <h3><i class="fas fa-paint-brush"></i> DESIGN</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-level="Advanced">
+                        <img src="figma.png" alt="Figma">
+                        <span class="skill-name">Figma</span>
+                        <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-item" data-level="Advanced">
+                        <img src="adobe-xd.png" alt="Adobe XD">
+                        <span class="skill-name">Adobe XD</span>
+                        <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-item" data-level="Intermediate">
+                        <img src="photoshop.png" alt="Photoshop">
+                        <span class="skill-name">Photoshop</span>
+                        <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="skill-item" data-level="Intermediate">
+                        <img src="illustrator.png" alt="Illustrator">
+                        <span class="skill-name">Illustrator</span>
+                        <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="skill-item" data-level="Basic">
+                        <img src="blender.png" alt="Blender">
+                        <span class="skill-name">Blender 3D</span>
+                        <span class="skill-level">Basic</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-block">
+                <h3><i class="fas fa-chart-bar"></i> UI/UX</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-level="Advanced">
+                        <img src="user-research.png" alt="User Research">
+                        <span class="skill-name">User Research</span>
+                        <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-item" data-level="Advanced">
+                        <img src="wireframing.png" alt="Wireframing">
+                        <span class="skill-name">Wireframing</span>
+                        <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-item" data-level="Advanced">
+                        <img src="prototyping.png" alt="Prototyping">
+                        <span class="skill-name">Prototyping</span>
+                        <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-item" data-level="Intermediate">
+                        <img src="usability-testing.png" alt="Usability Testing">
+                        <span class="skill-name">Usability Testing</span>
+                        <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="skill-item" data-level="Advanced">
+                        <img src="interaction-design.png" alt="Interaction Design">
+                        <span class="skill-name">Interaction Design</span>
+                        <span class="skill-level">Advanced</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="blender-divider">
+        <video autoplay loop muted playsinline>
+            <source src="blender-animation-2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="blender-overlay">
+            <h3>MATERIAL CREATION</h3>
+            <p>Advanced shader and texture work in Substance Painter</p>
+        </div>
+    </div>
+
+    <section class="projects-section" id="projects">
+        <h2 class="section-title">MISSION ARCHIVES</h2>
+        <div class="projects-container">
+            <div class="project-card hidden">
+                <img src="project1.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>E-COMMERCE REDESIGN</h3>
+                    <p>Complete UX overhaul for fashion retailer resulting in 35% conversion increase</p>
+                    <a href="project-detail.html?project=1">VIEW CASE STUDY →</a>
+                </div>
+            </div>
+            <div class="project-card hidden">
+                <img src="project2.png" alt="Project 2">
+                <div class="project-info">
+                    <h3>MOBILE APP CONCEPT</h3>
+                    <p>Innovative design for a fitness tracking mobile application</p>
+                    <a href="project-detail.html?project=2">VIEW CASE STUDY →</a>
+                </div>
+            </div>
+            <div class="project-card hidden">
+                <img src="project3.png" alt="Project 3">
+                <div class="project-info">
+                    <h3>SAAS DASHBOARD UI</h3>
+                    <p>Clean and intuitive dashboard design for a software-as-a-service platform</p>
+                    <a href="project-detail.html?project=3">VIEW CASE STUDY →</a>
+                </div>
+            </div>
+            <div class="project-card hidden">
+                <img src="project4.png" alt="Project 4">
+                <div class="project-info">
+                    <h3>3D VISUALIZATION PROJECT</h3>
+                    <p>Interactive 3D model for product presentation and exploration</p>
+                    <a href="project-detail.html?project=4">VIEW CASE STUDY →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">SYSTEM FEEDBACK</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="client-img">
+                        <img src="client1.jpg" alt="Client 1">
+                    </div>
+                    <div class="testimonial-text">
+                        <p>"Neo's design skills are exceptional. The improvements to our e-commerce site were immediate and significant. Highly recommended!"</p>
+                    </div>
+                    <div class="client-info">
+                        <h4>John Doe</h4>
+                        <span>CEO, Fashion Forward Inc.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="client-img">
+                        <img src="client2.jpg" alt="Client 2">
+                    </div>
+                    <div class="testimonial-text">
+                        <p>"The mobile app concept Neo developed for us was innovative and user-friendly. It perfectly aligned with our vision."</p>
+                    </div>
+                    <div class="client-info">
+                        <h4>Jane Smith</h4>
+                        <span>Product Manager, FitLife Apps</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="client-img">
+                        <img src="client3.jpg" alt="Client 3">
+                    </div>
+                    <div class="testimonial-text">
+                        <p>"Neo's understanding of UI/UX principles is outstanding. The dashboard design is clean, efficient, and has greatly improved our workflow."</p>
+                    </div>
+                    <div class="client-info">
+                        <h4>Mike Johnson</h4>
+                        <span>CTO, SaaS Solutions Ltd.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="blender-divider">
+        <video autoplay loop muted playsinline>
+            <source src="blender-animation-3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="blender-overlay">
+            <h3>ANIMATION SHOWREEL</h3>
+            <p>Character rigging and motion design examples</p>
+        </div>
+    </div>
+
+    <section class="contact-section" id="contact">
+        <h2 class="section-title">INITIATE CONNECTION</h2>
+        <div class="terminal-container">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <div class="terminal-btn red"></div>
+                    <div class="terminal-btn yellow"></div>
+                    <div class="terminal-btn green"></div>
+                </div>
+                <div class="terminal-title">contact@neodesign.io</div>
+            </div>
+            <div class="terminal-body">
+                <div class="terminal-output">
+                    <p><span class="prompt">NeoDesign:</span> Accessing communication protocols...</p>
+                    <p><span class="prompt">NeoDesign:</span> Ready for your message.</p>
+                </div>
+                <div class="terminal-input">
+                    <span class="prompt">guest@system:~$</span>
+                    <input type="text" id="terminal-command" placeholder="Enter your command (e.g., send email hello@example.com 'Project Inquiry')">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h3>NEO<span>DESIGN</span></h3>
+        <p>Designing digital experiences that defy the matrix.</p>
+        <div class="socials">
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-dribbble"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-behance"></i></a>
+        </div>
+        <p class="copyright">&copy; 2025 Neo Design. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
